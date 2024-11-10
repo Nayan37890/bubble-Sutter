@@ -24,5 +24,24 @@
   src="https://rawgit.com/nicholas-maltbie/BubbleShooterJS/master/manager.js">
 </script>
     <script src="script.js"></script>
+
+
+
+<script>
+if (typeof window._calActivator === "undefined") {
+ document.addEventListener('_calActivatorStarted', (e) => {
+  window._calActivator.activate();
+ });
+} else {
+ window._calActivator.activate();
+}
+</script>
+
+
+
+
+
+
+    
 </body>
 </html>
